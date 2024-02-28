@@ -1,0 +1,36 @@
+*{
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul{
+    height: 100px;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+nav ul li{
+    height: 100px;
+    width: 100px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+}
+
+
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:visited{
+color: black;
+}
